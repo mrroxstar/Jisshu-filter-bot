@@ -106,8 +106,8 @@ PING_INTERVAL = int(environ.get("PING_INTERVAL", "1200"))  # 20 minutes
 if 'DYNO' in environ:
     ON_HEROKU = True
 else:
-    ON_HEROKU = False
-URL = environ.get("FQDN", "zeroth-shari-rox-29469b6b.koyeb.app/")
+    ON_HEROKU = True
+URL = environ.get("FQDN", "zeroth-shari-rox-29469b6b.koyeb.app")
 
 #---------------------------------------------------------------
 #---------------------------------------------------------------
